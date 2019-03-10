@@ -1,7 +1,8 @@
+Set-PSReadlineOption -BellStyle None
+
 Import-Module Get-ChildItemColor
 Import-Module posh-git
 Import-Module oh-my-posh
-Import-Module windows-screenfetch
 Import-Module PSColor
 Import-Module Posh-SSH
 Import-Module PSReadline
