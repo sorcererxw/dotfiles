@@ -17,7 +17,7 @@ git config --global https.proxy 'socks5://127.0.0.1:1080'
 git config --global user.name "SorcererXW"
 git config --global user.email "tujipqy@gmail.com"
 
-mkdir ~/repo
+New-Item -ItemType "directory" -Path "~/repo" 
 git clone git@github.com:sorcererxw/dotfiles.git ~/repo
 
 # import powershell config
