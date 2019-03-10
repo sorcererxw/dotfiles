@@ -1,4 +1,6 @@
 # init scoop
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+
 Invoke-Expression (new-object net.webclient).downloadstring('https://get.scoop.sh')
 scoop install git openssh aria2 concfg sudo
 scoop bucket add extras java
@@ -17,6 +19,9 @@ git config --global user.email "tujipqy@gmail.com"
 
 mkdir ~/repo
 git clone git@github.com:sorcererxw/dotfiles.git ~/repo
+
+# import powershell config
+concfg import ~/repo/dotfiles/concfg.json
 
 # create symbolic link for powershell profile
 sudo New-Item -Path $profile -Value ~/repo/dotfiles/ps_profile.ps1 -ItemType SymbolicLink -Force
