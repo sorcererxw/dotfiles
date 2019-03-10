@@ -1,7 +1,7 @@
 {
 	"fonts": {
 	    "SimSun": {
-            "replace": "更纱黑体 UI SC",
+            "replace": "Sarasa UI SC",
             "#size": 0,
             "#width": 0,
             "#weight": 0,
@@ -10,7 +10,7 @@
             "#strikeOut": false
         },
         "Open Sans": {
-            "replace": "更纱黑体 UI SC",
+            "replace": "Sarasa UI SC",
             "#size": 0,
             "#width": 0,
             "#weight": 0,
@@ -19,7 +19,7 @@
             "#strikeOut": false
         },
         "Open Sans Regular": { 
-			"replace": "更纱黑体 UI SC", 
+			"replace": "Sarasa UI SC", 
 			"#size": 0, 
 			"#width": 0, 
 			"#weight": 0, 
@@ -28,7 +28,7 @@
 			"#strikeOut": false 
 		},
         "Open Sans Semibold": {
-            "replace": "更纱黑体 UI SC Bold",
+            "replace": "Sarasa UI SC Bold",
             "#size": 0,
             "#width": 0,
             "#weight": 700,
@@ -37,7 +37,7 @@
             "#strikeOut": false
         },
         "Open Sans Bold": { 
-			"replace": "更纱黑体 UI SC Bold", 
+			"replace": "Sarasa UI SC Bold", 
 			"#size": 0, 
 			"#width": 0, 
 			"#weight": 0, 
@@ -46,7 +46,7 @@
 			"#strikeOut": false 
 		},
         "Arial": {
-            "replace": "更纱黑体 UI SC",
+            "replace": "Sarasa UI SC",
             "#size": 0,
             "#width": 0,
             "#weight": 0,
