@@ -3,57 +3,31 @@
 	    "SimSun": {
             "replace": "Sarasa UI SC",
             "#size": 0,
-            "#width": 0,
-            "#weight": 0,
-            "#italic": false,
-            "#underLine": false,
-            "#strikeOut": false
+			"#width": 0,
+			"#weight": 0,
+			"#italic": false,
+			"#underLine": false,
+			"#strikeOut": false,
+			"#charSet": 0,
+			"#outPrecision": 0,
+			"#clipPrecision": 0,
+			"#quality": 0,
+			"#pitchAndFamily": 0
         },
         "Open Sans": {
-            "replace": "Sarasa UI SC",
-            "#size": 0,
-            "#width": 0,
-            "#weight": 0,
-            "#italic": false,
-            "#underLine": false,
-            "#strikeOut": false
+            "replace": "Sarasa UI SC"
         },
         "Open Sans Regular": { 
-			"replace": "Sarasa UI SC", 
-			"#size": 0, 
-			"#width": 0, 
-			"#weight": 0, 
-			"#italic": false, 
-			"#underLine": false, 
-			"#strikeOut": false 
+			"replace": "Sarasa UI SC"
 		},
         "Open Sans Semibold": {
-            "replace": "Sarasa UI SC Bold",
-            "#size": 0,
-            "#width": 0,
-            "#weight": 700,
-            "#italic": false,
-            "#underLine": false,
-            "#strikeOut": false
+            "replace": "Sarasa UI SC",
+            "weight": 700
         },
         "Open Sans Bold": { 
-			"replace": "Sarasa UI SC Bold", 
-			"#size": 0, 
-			"#width": 0, 
-			"#weight": 0, 
-			"#italic": false, 
-			"#underLine": false, 
-			"#strikeOut": false 
-		},
-        "Arial": {
-            "replace": "Sarasa UI SC",
-            "#size": 0,
-            "#width": 0,
-            "#weight": 0,
-            "#italic": false,
-            "#underLine": false,
-            "#strikeOut": false
-        }
+			"replace": "Sarasa UI SC",
+			"weight": 700
+		}
 	},
-	"debug": false
+    "debug": false
 }
