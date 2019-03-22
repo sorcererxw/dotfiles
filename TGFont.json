@@ -1,7 +1,7 @@
 {
 	"fonts": {
 	    "SimSun": {
-            "replace": "Sarasa UI SC",
+            "replace": "Microsoft YaHei UI",
             "#size": 0,
 			"#width": 0,
 			"#weight": 0,
@@ -15,18 +15,27 @@
 			"#pitchAndFamily": 0
         },
         "Open Sans": {
-            "replace": "Sarasa UI SC"
+            "replace": "Microsoft YaHei UI"
         },
         "Open Sans Regular": { 
-			"replace": "Sarasa UI SC"
+			"replace": "Microsoft YaHei UI"
 		},
         "Open Sans Semibold": {
-            "replace": "Sarasa UI SC",
+            "replace": "Microsoft YaHei UI",
             "weight": 700
         },
         "Open Sans Bold": { 
-			"replace": "Sarasa UI SC",
+			"replace": "Microsoft YaHei UI",
 			"weight": 700
+		},
+		"PMingLiU": {
+			"replace": "Microsoft JhengHei UI"
+		},
+		"MS UI Gothic": {
+			"replace": "Yu Gothic UI"
+		},
+		"Gulim": {
+			"replace": "맑은 고딕"
 		}
 	},
     "debug": false
