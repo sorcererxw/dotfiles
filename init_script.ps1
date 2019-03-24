@@ -23,6 +23,13 @@ git clone git@github.com:sorcererxw/dotfiles.git ~/repo
 # import powershell config
 concfg import ~/repo/dotfiles/concfg.json
 
+# install ps module
+install-module Get-ChildItemColor -scope currentuser
+install-module oh-my-posh -scope currentuser
+install-module pscolor -scope currentuser
+install-module posh-ssh -scope currentuser
+install-module posh-git -scope currentuser
+
 # create symbolic link for powershell profile
 sudo New-Item -Path $profile -Value ~/repo/dotfiles/ps_profile.ps1 -ItemType SymbolicLink -Force
 # create symbolic link for tgfont
