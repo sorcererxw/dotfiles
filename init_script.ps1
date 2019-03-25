@@ -27,3 +27,5 @@ concfg import ~/repo/dotfiles/concfg.json
 sudo New-Item -Path $profile -Value ~/repo/dotfiles/ps_profile.ps1 -ItemType SymbolicLink -Force
 # create symbolic link for tgfont
 sudo New-Item -Path "~\AppData\Roaming\Telegram Desktop\TGFont.json" -Value ~/repo/dotfiles/TGFont.json -ItemType SymbolicLink -Force
+# create symbolic link for vscode config
+sudo New-Item -Path "~\AppData\Roaming\Code\User\settings.json" -Value ~/repo/dotfiles/vscode_settings.json -ItemType SymbolicLink -Force
