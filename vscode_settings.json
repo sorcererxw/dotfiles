@@ -1,6 +1,6 @@
 {
     "editor.fontSize": 20,
-    "editor.fontFamily": "'Fira Code Retina' ,Consolas, 'Courier New', monospace, 'source han sans'",
+    "editor.fontFamily": "'Fira Code Retina', 'sarasa term sc',Consolas, 'Courier New', monospace, 'source han sans'",
     "extensions.ignoreRecommendations": false,
     "files.autoSave": "afterDelay",
     "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', 'sarasa ui sc', sans-serif",
