@@ -6,7 +6,9 @@ scoop install git openssh aria2 concfg sudo
 scoop bucket add extras java
 scoop update
 scoop install shadowsocksr-csharp fiddler typora terminus
-scoop install oraclejdk8
+
+scoop install oraclejdk-lts
+scoop reset oraclejdk-lts
 
 # init ssh
 # ssh-keygen -t rsa -b 4096 -C "tujipqy@gmail.com"
