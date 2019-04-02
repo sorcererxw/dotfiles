@@ -2,6 +2,9 @@
 // which will not automatically be merged into this file.
 // See https://hyper.is#cfg for all currently supported options.
 
+var globalFontSize = 18
+var globalFontFamily = '"sarasa term sc", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace'
+
 module.exports = {
   config: {
     // choose either `'stable'` for receiving highly polished,
@@ -9,10 +12,15 @@ module.exports = {
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
-    fontSize: 18,
+    fontSize: globalFontSize,
 
     // font family with optional fallbacks
-    fontFamily: '"sarasa term sc", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontFamily: globalFontFamily,
+
+    verminal: {
+      fontFamily: globalFontFamily,
+      fontSize: globalFontSize
+    },
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -137,7 +145,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [],
+  plugins: ["verminal"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
