@@ -38,3 +38,6 @@ sudo New-Item -Path $profile -Value ~/repo/dotfiles/ps_profile.ps1 -ItemType Sym
 sudo New-Item -Path "~\AppData\Roaming\Telegram Desktop\TGFont.json" -Value ~/repo/dotfiles/TGFont.json -ItemType SymbolicLink -Force
 # create symbolic link for vscode config
 sudo New-Item -Path "~\AppData\Roaming\Code\User\settings.json" -Value ~/repo/dotfiles/vscode_settings.json -ItemType SymbolicLink -Force
+# init hyper shell
+scoop install hyper
+sudo New-Item -Path "~\.hyper.js" -Value ~/repo/dotfiles/.hyper.js -ItemType SymbolicLink -Force

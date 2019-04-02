@@ -6,5 +6,7 @@
     "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', 'sarasa ui sc', sans-serif",
     "markdown.preview.fontSize": 20,
     "http.proxy": "http://127.0.0.1:1080",
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
