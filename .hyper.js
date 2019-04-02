@@ -2,9 +2,6 @@
 // which will not automatically be merged into this file.
 // See https://hyper.is#cfg for all currently supported options.
 
-var globalFontSize = 18
-var globalFontFamily = '"sarasa term sc", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace'
-
 module.exports = {
   config: {
     // choose either `'stable'` for receiving highly polished,
@@ -12,15 +9,13 @@ module.exports = {
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
-    fontSize: globalFontSize,
+    fontSize: 18,
 
     // font family with optional fallbacks
-    fontFamily: globalFontFamily,
+    fontFamily: '"sarasa term sc", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
-    verminal: {
-      fontFamily: globalFontFamily,
-      fontSize: globalFontSize
-    },
+    // font family of hyper window ui
+    uiFontFamily: "sarasa ui sc",
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -44,7 +39,7 @@ module.exports = {
     cursorShape: 'BLOCK',
 
     // set to `true` (without backticks and without quotes) for blinking cursor
-    cursorBlink: false,
+    cursorBlink: true,
 
     // color of the text
     foregroundColor: '#fff',
@@ -121,7 +116,7 @@ module.exports = {
     env: {},
 
     // set to `false` for no bell
-    bell: 'false',
+    bell: false,
 
     // if `true` (without backticks and without quotes), selected text will automatically be copied to the clipboard
     copyOnSelect: false,
@@ -145,7 +140,9 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ["verminal"],
+  plugins: [
+    "hyper-dracula",
+  ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here

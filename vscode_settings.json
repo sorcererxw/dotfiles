@@ -1,12 +1,13 @@
 {
-    "editor.fontSize": 20,
-    "editor.fontFamily": "'Fira Code Retina', 'sarasa term sc',Consolas, 'Courier New', monospace, 'source han sans'",
+    "editor.fontSize": 18,
+    "editor.fontFamily": "'sarasa mono sc', 'Fira Code Retina', Consolas, 'Courier New', monospace, 'source han sans'",
     "extensions.ignoreRecommendations": false,
     "files.autoSave": "afterDelay",
-    "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', 'sarasa ui sc', sans-serif",
-    "markdown.preview.fontSize": 20,
+    "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC','sarasa ui sc', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif",
+    "markdown.preview.fontSize": 18,
     "http.proxy": "http://127.0.0.1:1080",
     "editor.fontLigatures": true,
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorTheme": "Default Material Dark Theme"
 }
