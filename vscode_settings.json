@@ -9,5 +9,13 @@
     "editor.fontLigatures": true,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "workbench.colorTheme": "Default Material Dark Theme"
+    "workbench.colorTheme": "Default Material Dark Theme",
+    "git.enableSmartCommit": true,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "window.zoomLevel": 0
 }
