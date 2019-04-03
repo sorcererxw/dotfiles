@@ -7,6 +7,8 @@ Import-Module PSColor
 Import-Module Posh-SSH
 Import-Module PSReadline
 
+${function:dotfiles} = { Set-Location ~\repo\dotfiles }
+
 Set-Alias l Get-ChildItemColor -option AllScope
 Set-Alias ls Get-ChildItemColorFormatWide -option AllScope
 Set-Alias open Invoke-Item
