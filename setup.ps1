@@ -26,11 +26,11 @@ git clone git@github.com:sorcererxw/dotfiles.git ~/repo
 concfg import ~/repo/dotfiles/concfg.json
 
 # install ps module
-install-module Get-ChildItemColor -scope currentuser
-install-module oh-my-posh -scope currentuser
-install-module pscolor -scope currentuser
-install-module posh-ssh -scope currentuser
-install-module posh-git -scope currentuser
+install-module Get-ChildItemColor -scope CurrentUser
+install-module oh-my-posh -scope CurrentUser 
+install-module pscolor -scope CurrentUser
+install-module posh-ssh -scope CurrentUser
+install-module posh-git -scope CurrentUser
 
 # create symbolic link for powershell profile
 sudo New-Item -Path $profile -Value ~/repo/dotfiles/ps_profile.ps1 -ItemType SymbolicLink -Force
