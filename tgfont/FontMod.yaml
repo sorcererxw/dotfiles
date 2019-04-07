@@ -12,9 +12,29 @@ style: &style
 #  quality: 0
 #  pitchAndFamily: 0
 
+style: &semiBoldStyle
+  <<: *style
+  weight: 600
+
+style: &boldStyle
+  <<: *style
+  weight: 700
+
 fonts:
+  Open Sans:
+    replace: Microsoft YaHei UI
+    <<: *style
+  Open Sans Regular:
+    replace: Microsoft YaHei UI
+    <<: *style
+  Open Sans Semibold:
+    replace: Microsoft YaHei UI
+    <<: *semiBoldStyle
+  Open Sans Bold:
+    replace: Microsoft YaHei UI
+    <<: *boldStyle
   SimSun: &zh-cn-font # Chinese (Simplified) fallback font
-    replace: Microsoft YaHei
+    replace: Microsoft YaHei UI
     <<: *style
   PMingLiU: # Chinese (Traditional) fallback font
     replace: Microsoft JhengHei UI
@@ -26,6 +46,6 @@ fonts:
     replace: 맑은 고딕
     <<: *style
 
-fixGSOFont: true # true is to use system UI font
+# fixGSOFont: true # true is to use system UI font
 #fixGSOFont: *zh-cn-font # Or replace with user defined font
-debug: false
+debug: true
