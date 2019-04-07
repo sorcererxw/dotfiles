@@ -35,7 +35,8 @@ install-module posh-git -scope CurrentUser
 # create symbolic link for powershell profile
 sudo New-Item -Path $profile -Value ~/repo/dotfiles/ps_profile.ps1 -ItemType SymbolicLink -Force
 # create symbolic link for tgfont
-sudo New-Item -Path "~\AppData\Roaming\Telegram Desktop\TGFont.json" -Value ~/repo/dotfiles/TGFont.json -ItemType SymbolicLink -Force
+sudo New-Item -Path "~\AppData\Roaming\Telegram Desktop\winmm.dll" -Value ~/repo/dotfiles/tgfont/FontMod.dll -ItemType SymbolicLink -Force
+sudo New-Item -Path "~\AppData\Roaming\Telegram Desktop\FontMod.yaml" -Value ~/repo/dotfiles/tgfont/FontMod.yaml -ItemType SymbolicLink -Force
 # create symbolic link for vscode config
 sudo New-Item -Path "~\AppData\Roaming\Code\User\settings.json" -Value ~/repo/dotfiles/vscode_settings.json -ItemType SymbolicLink -Force
 # init hyper shell
