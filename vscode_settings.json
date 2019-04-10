@@ -17,5 +17,8 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "python.jediEnabled": false,
+    "python.pythonPath": "~\\scoop\\shims\\python.exe",
+    "python.linting.pylintEnabled": true
 }
