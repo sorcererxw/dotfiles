@@ -5,7 +5,7 @@ Invoke-Expression (new-object net.webclient).downloadstring('https://get.scoop.s
 scoop install git openssh aria2 concfg sudo
 scoop bucket add extras java
 scoop update
-scoop install shadowsocksr-csharp fiddler typora terminus
+scoop install shadowsocksr-csharp fiddler terminus
 scoop install python
 scoop install oraclejdk-lts
 scoop reset oraclejdk-lts
@@ -45,3 +45,7 @@ sudo New-Item -Path "~\AppData\Roaming\Code\User\settings.json" -Value ~/repo/do
 # init hyper shell
 scoop install hyper
 sudo New-Item -Path "~\.hyper.js" -Value ~/repo/dotfiles/.hyper.js -ItemType SymbolicLink -Force
+# init typora themes
+scoop install typora
+rm -r ~\AppData\Roaming\Typora\themes
+sudo New-Item -Path "~\AppData\Roaming\Typora\themes" -Value ~/repo/dotfiles/Typora/themes -ItemType SymbolicLink -Force
