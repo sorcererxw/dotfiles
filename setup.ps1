@@ -44,7 +44,7 @@ code --install-extension k--kato.intellij-idea-keybindings
 sudo New-Item -Path "~\AppData\Roaming\Code\User\settings.json" -Value ~/repo/dotfiles/vscode_settings.json -ItemType SymbolicLink -Force
 # init hyper shell
 scoop install hyper
-sudo New-Item -Path "~\.hyper.js" -Value ~/repo/dotfiles/.hyper.js -ItemType SymbolicLink -Force
+sudo New-Item -Path "~\AppData\Roaming\Hyper\.hyper.js" -Value ~/repo/dotfiles/.hyper.js -ItemType SymbolicLink -Force
 # init typora themes
 scoop install typora
 rm -r ~\AppData\Roaming\Typora\themes
